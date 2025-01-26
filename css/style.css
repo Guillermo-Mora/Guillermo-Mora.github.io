@@ -1,0 +1,153 @@
+/*General*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Lexenda';
+    font-size: 1rem;
+    margin: 0;
+    color: black;
+    background-color: rgb(249, 224, 255);
+    opacity: 1;
+    background: repeating-linear-gradient(-45deg, rgb(252, 230, 255), rgb(252, 230, 255) 20px, rgba(249, 224, 255, 1) 20px, rgba(249, 224, 255, 1) 100px);
+    background-attachment: fixed;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    margin-top: 82px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 350,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+/*---*/
+
+/*Header menu*/
+
+header.menu {
+    margin: 10px 40px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 35px;
+    background-color: #97d9ff;
+    position: fixed;
+    width: calc(100% - 80px);
+    top: 0;
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ul.menu li a {
+    padding: 20px 20px;
+    transition: color 0.3s ease-in-out;
+    color: black;
+
+}
+
+ul.menu li a:hover {
+    color: rgb(61, 61, 61);
+}
+
+header a:visited {
+    color: black;
+}
+
+header.menu ul span {
+    position: relative;
+    top: 2px;
+}
+
+header.menu span.menu {
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    top: -1px;
+    color: black;
+}
+
+h4.menu {
+    margin: 0;
+    color: black;
+}
+
+img.menu {
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+    filter: invert(100%);
+    aspect-ratio: 1/1;
+}
+
+nav div>a>div.menu:first-child {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: -11px 0;
+}
+
+/*---*/
+
+/*Footer*/
+
+p.pie {
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    border-top: 2px solid;
+}
+
+footer div {
+    padding: 40px 0;
+}
+
+footer div:first-child>p:first-child {
+    padding-bottom: 40px;
+}
+
+footer div.pie:nth-child(1) {
+    background-color: #97d9ff;
+    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.137);
+    text-align: center;
+}
+
+footer div.pie:nth-child(2) {
+    border-top: 2px solid;
+}
+
+footer a {
+    color: black;
+    transition: color 0.3s ease-in-out;
+    border: 2px solid;
+    padding: 10px 15px;
+    border-radius: 35px;
+    background-color: rgba(249, 224, 255, 0.267);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+}
+
+footer a:hover {
+    color: rgb(61, 61, 61);
+}
+
+/*---*/

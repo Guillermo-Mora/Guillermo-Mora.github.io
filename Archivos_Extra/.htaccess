@@ -1,0 +1,18 @@
+DirectoryIndex dcphoneweb.html
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(html|htm|js|css|jpg|jpeg|png|gif|svg|woff|woff2|ttf|map|scss|min\.js)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+    </FilesMatch>
+</IfModule>
+
+ErrorDocument 400 /error404notfoundurl.html
+ErrorDocument 401 /error404notfoundurl.html
+ErrorDocument 403 /error404notfoundurl.html
+ErrorDocument 404 /error404notfoundurl.html
+ErrorDocument 500 /error404notfoundurl.html
+ErrorDocument 502 /error404notfoundurl.html
+ErrorDocument 503 /error404notfoundurl.html
+ErrorDocument 504 /error404notfoundurl.html
