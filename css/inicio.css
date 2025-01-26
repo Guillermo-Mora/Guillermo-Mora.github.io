@@ -1,3 +1,7 @@
+body.scroll-inactivo {
+    overflow: hidden;
+}
+
 section.intro {
     display: flex;
     margin-top: 0;
@@ -103,8 +107,9 @@ div.enlaces button a:visited {
 }
 
 div.enlaces a:hover {
+    cursor: pointer;
     font-size: 50px;
-    color: rgb(61, 61, 61)!important;
+    color: rgb(61, 61, 61) !important;
     background-color: rgba(204, 94, 255, 0.377);
 
     .material-symbol-cv {
@@ -122,6 +127,95 @@ div.enlaces a:hover {
         'GRAD' 0,
         'opsz' 24
 }
+
+/*Contenedor para div CV*/
+
+.contenedor-cv {
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 100px 20px;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.contenedor-cv-activado {
+    visibility: visible;
+    opacity: 1;
+}
+
+section.seccion-cv {
+    background-color: whitesmoke;
+    border: 2px solid;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    padding: 10px;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    overflow-y: auto;
+}
+
+/*Scrollbar Firefox*/
+
+@-moz-document url-prefix() {
+    section.seccion-cv {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(155, 155, 155);
+    }
+}
+
+/*---*/
+
+/*Scrollbar navegadores Webkit*/
+
+section.seccion-cv::-webkit-scrollbar {
+    width: 6px;
+}
+
+section.seccion-cv::-webkit-scrollbar-track {
+    background: none;
+}
+
+section.seccion-cv::-webkit-scrollbar-thumb {
+    background-color: rgb(196, 196, 196);
+
+}
+
+section.seccion-cv::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(155, 155, 155);
+}
+
+/*---*/
+
+div.cerrar-cv {
+    position: sticky;
+    top: 0;
+    float: right;
+    border: 2px solid;
+    background-color: rgb(255, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.2s;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.137);
+}
+
+div.cerrar-cv img {
+    user-select: none;
+}
+
+div.cerrar-cv:hover {
+    cursor: pointer;
+    background-color: rgb(255, 162, 162);
+}
+
+/*---*/
 
 @media (max-width: 820px) {
     main>div {
