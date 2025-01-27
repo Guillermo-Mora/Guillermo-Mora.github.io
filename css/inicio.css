@@ -224,6 +224,7 @@ li.li-estilo-exp::marker {
 }
 
 .contenedor-cv-activado {
+    z-index: 2;
     visibility: visible;
     opacity: 1;
 }
