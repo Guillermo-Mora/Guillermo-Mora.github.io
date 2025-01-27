@@ -34,7 +34,7 @@ img.foto-personal-2 {
 }
 
 span.color-resalte {
-    color: rgb(204, 94, 255);
+    color: rgb(185, 34, 255);
 }
 
 div.div-izquierda {
@@ -152,6 +152,41 @@ div.enlaces a:hover {
     'GRAD' 0,
     'opsz' 44
 }
+
+/*Experiencia laboral*/
+
+ul.ul-exp-laboral {
+    padding-left: 29px;
+}
+
+div.exp-laboral {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.titulo-exp {
+    padding-left: 3px;
+}
+
+div.titulo-exp {
+    width: 30%;
+}
+
+div.titulo-exp h3:nth-child(1) {
+    color: rgb(185, 34, 255);
+}
+
+div.desc-exp {
+    width: 70%;
+}
+
+
+li.li-estilo-exp::marker {
+    color: rgb(185, 34, 255);
+    font-size: 1.5rem;
+}
+
+/*---*/
 
 /*Contenedor para div CV*/
 
