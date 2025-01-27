@@ -85,7 +85,6 @@ div.caja-tecnologias div img {
 
 div.enlaces {
     display: flex;
-    display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -161,7 +160,6 @@ ul.ul-exp-laboral {
 
 div.exp-laboral {
     display: flex;
-    flex-wrap: wrap;
 }
 
 div.titulo-exp {
@@ -170,14 +168,35 @@ div.titulo-exp {
 
 div.titulo-exp {
     width: 30%;
+    padding-right: 40px;
 }
 
 div.titulo-exp h3:nth-child(1) {
     color: rgb(185, 34, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.titulo-exp h3:nth-child(2) {
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+div.titulo-exp p {
+    margin-top: 7px;
 }
 
 div.desc-exp {
     width: 70%;
+}
+
+div.desc-exp p {
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+div.desc-exp p:first-child {
+    margin-top: 0;
 }
 
 
@@ -275,6 +294,22 @@ div.cerrar-cv:hover {
 }
 
 /*---*/
+
+@media (max-width: 720px) {
+    div.exp-laboral {
+        display: block;
+    }
+
+    div.titulo-exp {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    div.desc-exp {
+        width: 100%;
+        padding-left: 3px;
+    }
+}
 
 @media (max-width: 820px) {
     main>div {
