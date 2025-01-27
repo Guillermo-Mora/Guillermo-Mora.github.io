@@ -19,6 +19,23 @@ p.parrafo-intro {
 section h1.titulo {
     margin-top: 100px;
     margin-bottom: 20px;
+    transition: all ease-in-out 0.2s;
+}
+
+section:hover h1.titulo {
+    font-size: 35px;
+}
+
+section:hover h1.titulo span.material-symbol-titulos {
+    font-size: 30px;
+}
+
+section:first-child:hover img.foto-personal-1 {
+    width: 32%;
+}
+
+section {
+    width: 100%;
 }
 
 img.foto-personal-1 {
@@ -27,6 +44,7 @@ img.foto-personal-1 {
     border: 2px solid;
     border-radius: 100%;
     aspect-ratio: 1/1;
+    transition: all ease-in-out 0.2s;
 }
 
 img.foto-personal-2 {
@@ -67,8 +85,8 @@ div.caja-tecnologias div {
 }
 
 div.caja-tecnologias div:hover img {
-        height: 110%;
-        width: 110%;
+    height: 110%;
+    width: 110%;
 }
 
 div.caja-tecnologias div:hover {
@@ -79,7 +97,7 @@ div.caja-tecnologias div img {
     height: 100%;
     width: 100%;
     aspect-ratio: 1/1;
-    filter: drop-shadow( 6px 10px 0px rgba(0, 0, 0, 0.137));
+    filter: drop-shadow(6px 10px 0px rgba(0, 0, 0, 0.137));
     transition: all ease-in-out 0.2s;
 }
 
@@ -145,17 +163,19 @@ div.enlaces a:hover {
 .material-symbol-titulos {
     top: 3px;
     position: relative;
+    transition: all ease-in-out 0.2s;
     font-variation-settings:
-    'FILL' 1,
-    'wght' 750,
-    'GRAD' 0,
-    'opsz' 44
+        'FILL' 1,
+        'wght' 750,
+        'GRAD' 0,
+        'opsz' 44
 }
 
 /*Experiencia laboral*/
 
 ul.ul-exp-laboral {
     padding-left: 29px;
+    margin-bottom: 0;
 }
 
 div.exp-laboral {
@@ -182,7 +202,7 @@ div.titulo-exp h3:nth-child(2) {
     margin-bottom: 0;
 }
 
-div.titulo-exp p {
+div.titulo-exp small {
     margin-top: 7px;
 }
 
@@ -199,10 +219,31 @@ div.desc-exp p:first-child {
     margin-top: 0;
 }
 
-
 li.li-estilo-exp::marker {
     color: rgb(185, 34, 255);
     font-size: 1.5rem;
+}
+
+/*---*/
+
+/*Proyectos*/
+
+div.proy-divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.proy-divs div {
+    width: 50%;
+}
+
+div.proy-divs img {
+    width: 50%;
+    margin-right: 40px;
+    border: 2px solid;
+    border-radius: 35px;
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
 }
 
 /*---*/
@@ -296,6 +337,16 @@ div.cerrar-cv:hover {
 
 /*---*/
 
+@media (max-width: 450px) {
+    section:hover h1.titulo {
+        font-size: 1.5rem;
+    }
+
+    section:hover h1.titulo span.material-symbol-titulos {
+        font-size: 24px;
+    }
+}
+
 @media (max-width: 720px) {
     div.exp-laboral {
         display: block;
@@ -304,12 +355,15 @@ div.cerrar-cv:hover {
     div.titulo-exp {
         width: 100%;
         padding-right: 0;
+        margin-bottom: 20px;
     }
 
     div.desc-exp {
         width: 100%;
         padding-left: 3px;
     }
+
+
 }
 
 @media (max-width: 820px) {
