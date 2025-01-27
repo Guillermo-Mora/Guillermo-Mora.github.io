@@ -17,7 +17,8 @@ p.parrafo-intro {
 }
 
 section h1.titulo {
-    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 img.foto-personal-1 {
@@ -43,39 +44,53 @@ div.div-izquierda {
 
 img.div-derecha {
     margin-left: 20px;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
 }
 
 div.caja-tecnologias {
-    background-color: rgba(164, 229, 255, 0.322);
-    border: 2px solid;
-    border-radius: 50px;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    width: fit-content;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-div.caja-tecnologias img {
-    height: 12%;
-    width: 12%;
+div.caja-tecnologias div {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff6c;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.034);
+    transition: all ease-in-out 0.2s;
+}
+
+div.caja-tecnologias div:hover img {
+        height: 110%;
+        width: 110%;
+}
+
+div.caja-tecnologias div:hover {
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.397);
+}
+
+div.caja-tecnologias div img {
+    height: 100%;
+    width: 100%;
     aspect-ratio: 1/1;
-    border: 2px solid;
-    border-radius: 15%;
-    padding: 5px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.137);
+    filter: drop-shadow( 6px 10px 0px rgba(0, 0, 0, 0.137));
+    transition: all ease-in-out 0.2s;
 }
 
 div.enlaces {
     display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 div.enlaces button {
-    margin-right: 20px;
     background: none;
     border: none;
     font-size: 40px;
@@ -126,6 +141,16 @@ div.enlaces a:hover {
         'wght' 350,
         'GRAD' 0,
         'opsz' 24
+}
+
+.material-symbol-titulos {
+    top: 3px;
+    position: relative;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 750,
+    'GRAD' 0,
+    'opsz' 44
 }
 
 /*Contenedor para div CV*/

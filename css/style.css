@@ -17,9 +17,9 @@ body {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 56rem;
     margin: 0 auto;
-    padding: 60px 40px;
+    padding: 100px 16px;
     margin-top: 82px;
 }
 
@@ -45,6 +45,7 @@ header.menu {
     width: calc(100% - 80px);
     top: 0;
     box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    z-index: 1;
 }
 
 ul.menu {
