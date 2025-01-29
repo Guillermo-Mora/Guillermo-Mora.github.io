@@ -471,3 +471,47 @@ video {
 }
 
 /*---*/
+
+/*Sobre mí*/
+
+section.sec-sobre-mi p:last-child {
+    margin-bottom: 0;
+}
+
+section.sec-sobre-mi p:nth-child(2) {
+    margin-top: 0;
+}
+
+section.sec-sobre-mi:hover {
+    img.img-sobre-mi-1 {
+        rotate: 7deg;
+    }
+}
+
+div.div-sobre-mi {
+    display: flex;
+    align-items: center;
+}
+
+div.div-izq-sobre-mi {
+    width: 70%;
+}
+
+img.img-sobre-mi-1 {
+    width: 30%;
+    height: 30%;
+    margin-left: 40px;
+    border: 2px dashed;
+    border-radius: 35px;
+    background-color: #97d9ff4f;
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    rotate: 4deg;
+    aspect-ratio: 1/1;
+    transition: all ease-in-out 0.2s;
+}
+
+img.img-sobre-mi-2 {
+    display: none;
+}
+
+/*---*/
