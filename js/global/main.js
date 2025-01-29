@@ -18,7 +18,7 @@ button.addEventListener('click', () => {
 
 /*Cerrar el menú cuando se haga clic en cualquier opción del menú*/
 
-const menuLinks = document.querySelectorAll('.menu-js a');
+const menuLinks = document.querySelectorAll('.menu-js a, .enlace-inicio');
 
 menuLinks.forEach(link => {
     link.addEventListener('click', () => {

@@ -20,6 +20,7 @@ section h1.titulo {
     margin-top: 100px;
     margin-bottom: 20px;
     transition: all ease-in-out 0.2s;
+    scroll-margin-top: 112px;
 }
 
 section {
@@ -218,7 +219,7 @@ li.li-estilo-exp::marker {
 
 div.proy-divs {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 div.proy-divs:last-child {
