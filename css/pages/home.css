@@ -309,6 +309,12 @@ p.texto-proy {
     margin-bottom: 22px;
 }
 
+p.en-desarrollo {
+    margin-top: -18px;
+    margin-bottom: 22px;
+    color: rgb(104, 104, 104);
+}
+
 /*---*/
 
 /*Contenedor para div CV*/
@@ -320,16 +326,18 @@ p.texto-proy {
     width: 100%;
     height: 100%;
     padding: 100px 16px;
-    display: flex;
-    visibility: hidden;
+    display: none;
     opacity: 0;
-    transition: all ease-in-out 0.3s;
     background-color: rgba(0, 0, 0, 0.582);
 }
 
 .contenedor-cv-activado {
     z-index: 2;
-    visibility: visible;
+    display: flex;
+    transition: all ease-in-out 0.3s;
+}
+
+.contenedor-cv-visible {
     opacity: 1;
 }
 
@@ -396,6 +404,70 @@ div.cerrar-cv img {
 div.cerrar-cv:hover {
     cursor: pointer;
     background-color: rgb(255, 162, 162);
+}
+
+/*---*/
+
+/*Contenedor para div video*/
+
+.contenedor-video {
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.contenedor-video-activado {
+    z-index: 2;
+    display: flex;
+    transition: all ease-in-out 0.3s;
+}
+
+.contenedor-video-visible {
+    opacity: 1;
+}
+
+section.seccion-video {
+    border-top-left-radius: 35px;
+    padding: 0 16px;
+    margin-bottom: 34px;
+    max-width: 1980px;
+}
+
+div.cerrar-video {
+    position: sticky;
+    float: right;
+    border: 2px solid;
+    background-color: rgb(255, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.2s;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.137);
+}
+
+div.cerrar-video img {
+    user-select: none;
+}
+
+div.cerrar-video:hover {
+    cursor: pointer;
+    background-color: rgb(255, 162, 162);
+}
+
+#abrirVideo:hover {
+    cursor: pointer;
+}
+
+video {
+    aspect-ratio: 16/9;
+    width: 100%;
 }
 
 /*---*/
