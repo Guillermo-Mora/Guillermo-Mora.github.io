@@ -315,6 +315,14 @@ p.en-desarrollo {
 /*---*/
 
 /*Contenedor para div CV*/
+div.items-cv {
+    width: 100%;
+    height: 100%;
+    max-width: 864px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .contenedor-cv {
     position: fixed;
@@ -344,17 +352,13 @@ section.seccion-cv {
     border-top-left-radius: 35px;
     padding: 10px;
     width: 100%;
-    max-width: 56rem;
+    max-width: 864px;
     box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
     overflow-y: auto;
 }
 
-div.cerrar-cv {
-    position: sticky;
-    top: 0;
-    float: right;
-    border: 2px solid;
-    background-color: rgb(255, 199, 199);
+div.botones-cv > .boton-cv {
+    border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -362,13 +366,38 @@ div.cerrar-cv {
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.137);
 }
 
-div.cerrar-cv img {
-    user-select: none;
+div.botones-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+
+    img {
+        user-select: none;
+    }
 }
 
-div.cerrar-cv:hover {
+div.botones-cv > .boton-cv:hover {
     cursor: pointer;
+}
+
+.cerrar-cv {
+    background-color: rgb(255, 199, 199);
+}
+
+.cerrar-cv:hover {
     background-color: rgb(255, 162, 162);
+}
+
+.descargar-cv {
+    background-color: rgb(199, 255, 199);
+}
+
+.descargar-cv:hover {
+    background-color: rgb(139, 255, 139);
 }
 
 /*---*/
