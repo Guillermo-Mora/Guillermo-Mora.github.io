@@ -34,6 +34,9 @@ img.foto-personal-1 {
     border-radius: 100%;
     aspect-ratio: 1/1;
     transition: all ease-in-out 0.2s;
+    margin-left: 20px;
+    width: 30%;
+    height: 30%;
 }
 
 img.foto-personal-2 {
@@ -47,12 +50,6 @@ span.color-resalte {
 div.div-izquierda {
     margin-right: 20px;
     width: 50%;
-}
-
-img.div-derecha {
-    margin-left: 20px;
-    width: 30%;
-    height: 30%;
 }
 
 div.caja-tecnologias {
@@ -352,6 +349,30 @@ section.seccion-cv {
     overflow-y: auto;
 }
 
+div.cerrar-cv {
+    position: sticky;
+    top: 0;
+    float: right;
+    border: 2px solid;
+    background-color: rgb(255, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.2s;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.137);
+}
+
+div.cerrar-cv img {
+    user-select: none;
+}
+
+div.cerrar-cv:hover {
+    cursor: pointer;
+    background-color: rgb(255, 162, 162);
+}
+
+/*---*/
+
 /*Scrollbar Firefox*/
 
 @-moz-document url-prefix() {
@@ -380,30 +401,6 @@ section.seccion-cv::-webkit-scrollbar-thumb {
 
 section.seccion-cv::-webkit-scrollbar-thumb:hover {
     background-color: rgb(155, 155, 155);
-}
-
-/*---*/
-
-div.cerrar-cv {
-    position: sticky;
-    top: 0;
-    float: right;
-    border: 2px solid;
-    background-color: rgb(255, 199, 199);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all ease-in-out 0.2s;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.137);
-}
-
-div.cerrar-cv img {
-    user-select: none;
-}
-
-div.cerrar-cv:hover {
-    cursor: pointer;
-    background-color: rgb(255, 162, 162);
 }
 
 /*---*/
@@ -512,6 +509,11 @@ img.img-sobre-mi-1 {
 
 img.img-sobre-mi-2 {
     display: none;
+}
+
+span.res-sobre-mi {
+    color: #007ec7;
+    font-weight: 600;
 }
 
 /*---*/
