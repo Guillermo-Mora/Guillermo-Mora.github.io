@@ -38,12 +38,14 @@ abrirVideo.addEventListener('click', () => {
 });
 
 const cerrarMenuVideo = document.querySelector('.cerrar-video');
+const video = document.querySelector('video.video-gsm');
 
 cerrarMenuVideo.addEventListener('click', () => {
     divVideo.classList.remove('contenedor-video-visible');
     setTimeout(() => {
         divVideo.classList.remove('contenedor-video-activado');
         cuerpo.classList.remove('scroll-inactivo');
+        video.src = video.src;
     }, 300)
 });
 
