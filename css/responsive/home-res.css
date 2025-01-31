@@ -74,6 +74,18 @@
                 align-items: center;
                 gap: 20px;
             }
+
+            div:not(.inf-cv):not(.inf-personal) {
+                p {
+                    display: block;
+                    line-height: normal;
+                    padding-bottom: 5px 0;
+                }
+        
+                p:nth-child(even) {
+                    display: none;
+                }
+            }
         }
     }
 }

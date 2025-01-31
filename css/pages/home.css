@@ -434,7 +434,7 @@ section.seccion-cv {
             padding-right: 10px;
         }
 
-        P:last-child {
+        p:last-child {
             padding-right: 0;
         }
 
