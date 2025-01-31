@@ -410,6 +410,25 @@ section.seccion-cv {
     div.inf-personal {
         background-color: rgb(244, 235, 247);
         padding: 10px;
+        display: flex;
+
+        img.foto-cv-1 {
+            width: 60%;
+            height: 60%;
+            border: 4px solid rgb(125, 71, 139);
+            border-radius: 100%;
+            margin-right: 20px;
+            top: 5px;
+            position: relative;
+        }
+
+        img.foto-cv-2 {
+            display: none;
+        }
+
+        div.inf-cv-derecha {
+            
+        }
     }
     
     div.inf-cv {
@@ -453,7 +472,7 @@ section.seccion-cv {
     hr {
         background-color: rgb(125, 71, 139);
         border: none;
-        height: 4px;
+        height: 3px;
     }
 
     small {
@@ -467,10 +486,15 @@ section.seccion-cv {
     a {
         color: rgb(62, 114, 192);
         text-decoration: underline;
+        transition: all ease-in-out 0.2s;
     }
 
     a:visited {
         color: rgb(62, 114, 192);
+    }
+
+    a:hover {
+        background-color: rgba(255, 255, 0, 0.226);
     }
 
     table {
@@ -493,6 +517,7 @@ section.seccion-cv {
     }
 
     div > ul:first-child {
+        margin: 10px 0;
         padding-left: 20px;
         > li {
             margin-bottom: 30px;
