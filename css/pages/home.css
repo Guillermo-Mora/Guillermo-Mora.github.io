@@ -331,8 +331,12 @@ div.items-cv {
     width: 100%;
     height: 100%;
     padding: 100px 16px;
-    display: none;
-    opacity: 0;
+    /**/
+    display: flex;
+    opacity: 1;
+    /**/
+    z-index: 2;
+    /**/
     background-color: rgba(0, 0, 0, 0.582);
 }
 
