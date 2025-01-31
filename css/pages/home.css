@@ -416,13 +416,30 @@ section.seccion-cv {
         margin: 10px;
     }
 
+    div:not(.inf-cv):not(.inf-personal) {
+        p {
+            display: inline;
+            line-height: 30px;
+            padding-right: 10px;
+        }
+
+        P:last-child {
+            padding-right: 0;
+        }
+
+        p:nth-child(even) {
+            color: rgb(180, 180, 180);
+        }
+    }
+
     p, h1, h2, h3 {
         margin: 0;
-        padding: 5px;
+        padding: 5px 0;
     }
 
     h1 {
         font-size: 1.4rem;
+        color: rgb(90, 90, 90);
     }
 
     h2 {
