@@ -693,6 +693,9 @@ div.div-sobre-mi {
 
 div.div-izq-sobre-mi {
     width: 70%;
+    /*No hay foto de momento para poner (Quitar el width 100% cuando se tenga la foto)*/
+    width: 100%;
+    /*---*/
 }
 
 img.img-sobre-mi-1 {
@@ -706,11 +709,24 @@ img.img-sobre-mi-1 {
     rotate: 4deg;
     aspect-ratio: 1/1;
     transition: rotate ease-in-out 0.2s;
+    /*No hay foto de momento para poner (Quitar el display none cuando se tenga la foto)*/
+    display: none;
+    /*---*/
 }
 
 img.img-sobre-mi-2 {
-    display: none;
+    /*No hay foto de momento para poner (Quitar !important cuando se tenga la foto)*/
+    display: none !important;
+    /*---*/
 }
+
+/*No hay foto de momento para poner (Quitar todo lo de dentro cuando se tenga la foto)*/
+section.sec-sobre-mi {
+    h1 {
+        margin-bottom: 20px !important;
+    }
+}
+/*---*/
 
 span.res-sobre-mi {
     color: #007ec7;
