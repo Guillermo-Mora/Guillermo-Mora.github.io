@@ -19,7 +19,7 @@ p.parrafo-intro {
 section h1.titulo {
     margin-top: 100px;
     margin-bottom: 20px;
-    transition: all ease-in-out 0.2s;
+    transition: font-size ease-in-out 0.2s;
     scroll-margin-top: 112px;
 }
 
@@ -29,11 +29,11 @@ section {
 
 img.foto-personal-1 {
     background-color: rgba(237, 164, 255, 0.322);
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     border: 2px solid;
     border-radius: 100%;
     aspect-ratio: 1/1;
-    transition: all ease-in-out 0.2s;
+    transition: width ease-in-out 0.2s;
     margin-left: 20px;
     width: 30%;
     height: 30%;
@@ -66,13 +66,8 @@ div.caja-tecnologias div {
     border: 2px solid white;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.034);
-    transition: all ease-in-out 0.2s;
-}
-
-div.caja-tecnologias div:hover img {
-    height: 110%;
-    width: 110%;
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.025);
+    transition: box-shadow ease-in-out 0.2s;
 }
 
 div.caja-tecnologias div:hover {
@@ -83,8 +78,13 @@ div.caja-tecnologias div img {
     height: 100%;
     width: 100%;
     aspect-ratio: 1/1;
-    filter: drop-shadow(6px 10px 0px rgba(0, 0, 0, 0.137));
-    transition: all ease-in-out 0.2s;
+    filter: drop-shadow(6px 10px 0px rgba(0, 0, 0, 0.075));
+    transition: height ease-in-out 0.2s, width ease-in-out 0.2s;
+}
+
+div.caja-tecnologias div:hover img {
+    height: 110%;
+    width: 110%;
 }
 
 div.enlaces {
@@ -113,10 +113,10 @@ div.enlaces button a {
     justify-content: center;
     align-items: center;
     background-color: rgba(237, 164, 255, 0.322);
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     border: 2px solid;
     border-radius: 20px;
-    transition: all ease-in-out 0.2s;
+    transition: font-size ease-in-out 0.2s, color ease-in-out 0.2s, background-color ease-in-out 0.2s;
     color: black;
 }
 
@@ -138,7 +138,7 @@ div.enlaces a:hover {
 
 .material-symbol-cv {
     font-size: 40px;
-    transition: all ease-in-out 0.2s;
+    transition: font-size ease-in-out 0.2s;
     font-variation-settings:
         'FILL' 1,
         'wght' 350,
@@ -149,7 +149,7 @@ div.enlaces a:hover {
 .material-symbol-titulos {
     top: 3px;
     position: relative;
-    transition: all ease-in-out 0.2s;
+    transition: font-size ease-in-out 0.2s;
     font-variation-settings:
         'FILL' 1,
         'wght' 750,
@@ -233,8 +233,9 @@ div.proy-divs img.img-proy-izq {
     margin-right: 40px;
     border: 2px solid;
     border-radius: 35px;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     aspect-ratio: 16/9;
+    transition: scale ease-in-out 0.2s, border-color ease-in-out 0.2s;
 }
 
 div.proy-divs div.tec-usadas {
@@ -248,7 +249,7 @@ div.proy-divs div.tec-usadas {
     border-radius: 20px;
     border: 2px solid white;
     box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.034);
-    transition: all ease-in-out 0.2s;
+    transition: box-shadow ease-in-out 0.2s;
 }
 
 div.proy-divs div.tec-usadas:hover {
@@ -277,9 +278,9 @@ div.proy-divs div:nth-child(2) button a {
     background: none;
     font-family: 'Lexenda';
     font-size: 1rem;
-    transition: all ease-in-out 0.2s;
+    transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
     background-color: rgba(237, 164, 255, 0.322);
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     padding: 10px;
     border: 2px solid black;
     width: 100%;
@@ -315,6 +316,7 @@ p.en-desarrollo {
 /*---*/
 
 /*Contenedor para div CV*/
+
 div.items-cv {
     width: 100%;
     height: 100%;
@@ -339,7 +341,7 @@ div.items-cv {
 .contenedor-cv-activado {
     z-index: 2;
     display: flex;
-    transition: all ease-in-out 0.3s;
+    transition: opacity ease-in-out 0.3s;
 }
 
 .contenedor-cv-visible {
@@ -351,17 +353,17 @@ section.seccion-cv {
     border: 2px solid;
     width: 100%;
     max-width: 864px;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     overflow-y: auto;
 }
 
-div.botones-cv > .boton-cv {
+div.botones-cv>.boton-cv {
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all ease-in-out 0.2s;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.137);
+    transition: cursor ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.075);
 }
 
 div.botones-cv {
@@ -378,7 +380,7 @@ div.botones-cv {
     }
 }
 
-div.botones-cv > .boton-cv:hover {
+div.botones-cv>.boton-cv:hover {
     cursor: pointer;
 }
 
@@ -387,7 +389,7 @@ div.botones-cv > .boton-cv:hover {
 }
 
 .cerrar-cv:hover {
-    background-color: rgb(255, 162, 162);
+    background-color: rgb(255, 141, 141);
 }
 
 .descargar-cv {
@@ -422,7 +424,7 @@ section.seccion-cv {
             display: none;
         }
     }
-    
+
     div.inf-cv {
         margin: 10px;
     }
@@ -445,7 +447,10 @@ section.seccion-cv {
 
 
 
-    p, h1, h2, h3 {
+    p,
+    h1,
+    h2,
+    h3 {
         margin: 0;
         padding: 5px 0;
         word-wrap: break-word;
@@ -481,7 +486,7 @@ section.seccion-cv {
     a {
         color: rgb(62, 114, 192);
         text-decoration: underline;
-        transition: all ease-in-out 0.2s;
+        transition: background-color ease-in-out 0.2s;
     }
 
     a:visited {
@@ -500,7 +505,7 @@ section.seccion-cv {
             background-color: rgb(244, 235, 247);
         }
 
-        td{
+        td {
             border-top: 2px solid rgb(125, 71, 139);
             border-bottom: 2px solid rgb(125, 71, 139);
             padding: 5px;
@@ -511,34 +516,36 @@ section.seccion-cv {
         }
     }
 
-    div > ul:first-child {
+    div>ul:first-child {
         margin: 10px 0;
         padding-left: 20px;
-        > li {
+
+        >li {
             margin-bottom: 30px;
         }
 
-        > li:last-child {
+        >li:last-child {
             margin-bottom: 0;
         }
 
-        > li::marker {
+        >li::marker {
             color: rgb(125, 71, 139);
         }
     }
 
-    div > ul:first-child > li > ul {
+    div>ul:first-child>li>ul {
         list-style: none;
         padding-left: 0;
-        > li::marker {
+
+        >li::marker {
             color: rgb(125, 71, 139);
         }
 
-        > li {
+        >li {
             margin-bottom: 10px;
         }
 
-        > li:last-child {
+        >li:last-child {
             margin-bottom: 0;
         }
 
@@ -547,15 +554,16 @@ section.seccion-cv {
         }
     }
 
-    div > ul:first-child > li > ul > li > ul {
+    div>ul:first-child>li>ul>li>ul {
         list-style: disc;
         padding-left: 40px;
-        > li::marker {
+
+        >li::marker {
             color: rgb(0, 0, 0);
             font-size: 0.7rem;
         }
-        
-        > li {
+
+        >li {
             padding-bottom: 5px;
         }
     }
@@ -606,8 +614,8 @@ div.cerrar-video {
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
-    transition: all ease-in-out 0.2s;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.137);
+    transition: pointer ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.075);
 }
 
 div.cerrar-video img {
@@ -616,7 +624,7 @@ div.cerrar-video img {
 
 div.cerrar-video:hover {
     cursor: pointer;
-    background-color: rgb(255, 162, 162);
+    background-color: rgb(255, 141, 141);
 }
 
 #abrirVideo:hover {
@@ -638,7 +646,7 @@ div.cerrar-video:hover {
 .contenedor-video-activado {
     z-index: 2;
     display: flex;
-    transition: all ease-in-out 0.3s;
+    transition: opacity ease-in-out 0.3s;
 }
 
 .contenedor-video-visible {
@@ -694,10 +702,10 @@ img.img-sobre-mi-1 {
     border: 2px dashed;
     border-radius: 35px;
     background-color: #97d9ff4f;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     rotate: 4deg;
     aspect-ratio: 1/1;
-    transition: all ease-in-out 0.2s;
+    transition: rotate ease-in-out 0.2s;
 }
 
 img.img-sobre-mi-2 {

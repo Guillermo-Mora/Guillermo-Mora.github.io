@@ -12,8 +12,7 @@ body {
     color: black;
     background-color: rgb(249, 227, 255);
     background-attachment: fixed;
-    background-image: radial-gradient(ellipse 80% 80% at 50% -20%,rgb(241, 184, 255),rgba(255, 255, 255, 0));
-
+    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, rgb(241, 184, 255), rgba(255, 255, 255, 0));
 }
 
 main {
@@ -45,7 +44,7 @@ header.menu {
     position: fixed;
     width: calc(100% - 80px);
     top: 0;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.062);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.055);
     z-index: 1;
 }
 
@@ -130,7 +129,7 @@ footer div:first-child>p:first-child {
 
 footer div.pie:nth-child(1) {
     background-color: #35c6ff80;
-    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.137);
+    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.075);
     text-align: center;
 }
 
@@ -145,7 +144,7 @@ footer a {
     padding: 10px 15px;
     border-radius: 35px;
     background-color: rgba(249, 224, 255, 0.267);
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
 }
 
 footer a:hover {

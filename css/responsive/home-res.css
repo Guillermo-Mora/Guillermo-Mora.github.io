@@ -16,6 +16,11 @@
             rotate: 7deg;
         }
     }
+
+    div.proy-divs img.img-proy-izq:hover {
+        scale: 1.03;
+        border-color: gray;
+    }
 }
 
 @media (max-width: 720px) {
@@ -104,6 +109,7 @@
             }
         }
     }
+
     /*---*/
 }
 
@@ -118,7 +124,7 @@
 
     img.foto-personal-2 {
         background-color: rgba(237, 164, 255, 0.322);
-        box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+        box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
         border: 2px solid;
         border-radius: 100%;
         aspect-ratio: 1/1;
@@ -159,10 +165,10 @@
         border: 2px dashed;
         border-radius: 35px;
         background-color: #97d9ff4f;
-        box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.137);
+        box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
         rotate: 4deg;
         aspect-ratio: 1/1;
-        transition: all ease-in-out 0.2s;
+        transition: rotate ease-in-out 0.2s;
         margin: 0 auto;
         margin-bottom: 30px;
     }
