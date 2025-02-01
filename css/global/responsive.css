@@ -5,9 +5,7 @@
 }
 
 @media (min-width: 356px) {
-    h4.menu::before {
-        content: 'Guillermo Mora';
-    }
+
 }
 
 @media (max-width: 480px) {}
@@ -22,6 +20,10 @@
 }
 
 @media (max-width: 1110px) {
+    h4.menu::before {
+        content: 'Guillermo Mora';
+    }
+    
     header.menu {
         padding: 0px;
         padding-top: 20px;

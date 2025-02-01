@@ -41,9 +41,10 @@ header.menu {
     border-radius: 35px;
     background-color: #35c6ff80;
     backdrop-filter: blur(10px);
-    position: fixed;
-    width: calc(100% - 80px);
-    top: 0;
+    position: sticky;
+    margin: 10px auto;
+    max-width: 1096px;
+    top: 10px;
     box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.055);
     z-index: 1;
 }
