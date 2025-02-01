@@ -52,6 +52,8 @@
         margin-top: 20px;
     }
 
+    /*Contenido del CV*/
+
     section.seccion-cv {
         div.inf-cv {
             div.web-nota {
@@ -102,6 +104,7 @@
             }
         }
     }
+    /*---*/
 }
 
 @media (max-width: 820px) {
