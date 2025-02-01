@@ -53,6 +53,20 @@
     }
 
     section.seccion-cv {
+        div.inf-cv {
+            div.web-nota {
+                p {
+                    display: block;
+                    line-height: normal;
+                    padding-bottom: 5px;
+                }
+
+                p:nth-child(even) {
+                    display: none;
+                }
+            }
+        }
+
         div.inf-personal {
             display: block;
 
@@ -79,9 +93,9 @@
                 p {
                     display: block;
                     line-height: normal;
-                    padding-bottom: 5px 0;
+                    padding-bottom: 5px;
                 }
-        
+
                 p:nth-child(even) {
                     display: none;
                 }
