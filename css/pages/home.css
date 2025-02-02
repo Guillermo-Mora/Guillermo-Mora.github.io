@@ -21,6 +21,13 @@ section h1.titulo {
     margin-bottom: 20px;
     transition: font-size ease-in-out 0.2s;
     scroll-margin-top: 112px;
+
+    svg {
+        position: relative;
+        top: 2.8px;
+        bottom: 0;
+        transition: scale ease-in-out 0.2s, top ease-in-out 0.2s;
+    }
 }
 
 section {
@@ -116,8 +123,12 @@ div.enlaces button a {
     box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     border: 2px solid;
     border-radius: 20px;
-    transition: font-size ease-in-out 0.2s, color ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
     color: black;
+}
+
+div.enlaces button a svg {
+    transition: scale ease-in-out 0.2s;
 }
 
 div.enlaces button a:visited {
@@ -126,12 +137,11 @@ div.enlaces button a:visited {
 
 div.enlaces a:hover {
     cursor: pointer;
-    font-size: 50px;
     color: rgb(61, 61, 61) !important;
     background-color: rgba(204, 94, 255, 0.377);
 
-    .material-symbol-cv {
-        font-size: 50px;
+    svg {
+        scale: 1.2;
         color: rgb(61, 61, 61);
     }
 }
@@ -271,7 +281,7 @@ div.proy-botones {
 div.proy-divs div:nth-child(2) button {
     border: none;
     background: none;
-    padding: 10px 0;
+    padding: 0;
 }
 
 div.proy-divs div:nth-child(2) button a {
@@ -286,6 +296,8 @@ div.proy-divs div:nth-child(2) button a {
     width: 100%;
     border-radius: 20px;
     color: black;
+    display: flex;
+    gap: 3px;
 }
 
 div.proy-divs button a:visited {

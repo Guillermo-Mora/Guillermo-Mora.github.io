@@ -3,8 +3,9 @@
         font-size: 35px;
     }
 
-    section:hover h1.titulo span.material-symbol-titulos {
-        font-size: 30px;
+    section:hover h1.titulo svg {
+        scale: 1.4;
+        top: -1.5px;
     }
 
     section:first-child:hover img.foto-personal-1 {

@@ -10,33 +10,21 @@ section {
         margin: 0;
     }
 
-    .material-symbols-outlined-404-nofill {
-        position: relative;
-        top: 3px;
-        font-variation-settings:
-            'FILL' 0,
-            'wght' 350,
-            'GRAD' 0,
-            'opsz' 24
-    }
-    
-    .material-symbols-outlined-404-fill {
-        margin-left: 3px;
-        position: relative;
-        font-variation-settings:
-            'FILL' 1,
-            'wght' 350,
-            'GRAD' 0,
-            'opsz' 24
+    h1 {
+        svg {
+            position: relative;
+            top: 2.8px;
+        }
     }
     
     a {
         border: 2px solid black;
         border-radius: 35px;
-        padding: 8px 15px;
+        padding:10px;
         box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
         display: flex;
         align-items: center;
+        gap: 3px;
         color: black;
         background-color: rgba(237, 164, 255, 0.322);
         transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;

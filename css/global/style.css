@@ -73,9 +73,9 @@ header a:visited {
     color: black;
 }
 
-header.menu ul span {
+header.menu svg {
     position: relative;
-    top: 2px;
+    top: 2.5px;
 }
 
 header.menu span.menu {
