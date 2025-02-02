@@ -85,6 +85,11 @@ header.menu svg.header-logo {
     position: relative;
     top: 8px;
     margin-right: 20px;
+    color: black;
+}
+
+header.menu svg.header-logo:visited {
+    color: black;
 }
 
 h4.menu {
