@@ -1,6 +1,6 @@
 @media (max-width: 355px) {
     h4.menu::before {
-        content: 'G. Mora';
+        content: 'G. Mora' !important;
     }
 }
 
