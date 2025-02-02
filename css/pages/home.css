@@ -146,27 +146,6 @@ div.enlaces a:hover {
     }
 }
 
-.material-symbol-cv {
-    font-size: 40px;
-    transition: font-size ease-in-out 0.2s;
-    font-variation-settings:
-        'FILL' 1,
-        'wght' 350,
-        'GRAD' 0,
-        'opsz' 24
-}
-
-.material-symbol-titulos {
-    top: 3px;
-    position: relative;
-    transition: font-size ease-in-out 0.2s;
-    font-variation-settings:
-        'FILL' 1,
-        'wght' 750,
-        'GRAD' 0,
-        'opsz' 44
-}
-
 /*Experiencia laboral*/
 
 ul.ul-exp-laboral {

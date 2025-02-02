@@ -22,14 +22,6 @@ main {
     margin-top: 82px;
 }
 
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 350,
-        'GRAD' 0,
-        'opsz' 24
-}
-
 /*---*/
 
 /*Header menu*/
@@ -73,10 +65,12 @@ header a:visited {
     color: black;
 }
 
-header.menu svg {
+header.menu svg.nav-option {
     position: relative;
     top: 2.5px;
 }
+
+
 
 header.menu span.menu {
     margin-right: 20px;
@@ -85,6 +79,12 @@ header.menu span.menu {
     position: relative;
     top: -1px;
     color: black;
+}
+
+header.menu svg.header-logo {
+    position: relative;
+    top: 8px;
+    margin-right: 20px;
 }
 
 h4.menu {
