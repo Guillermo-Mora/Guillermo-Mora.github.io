@@ -28,7 +28,40 @@
         "sobre_mi.parrafo1": "Me llamo <span class='res-sobre-mi'>Guillermo</span> y me apasiona el <span class='res-sobre-mi'>desarrollo web</span> y la <span class='res-sobre-mi'>programación</span>. Siempre me ha interesado la <span class='res-sobre-mi'>informática</span> y he disfrutado aprendiendo y curioseando por mi cuenta. Actualmente me encuentro cursando <span class='res-sobre-mi'>1º de DAM</span>.",
         "sobre_mi.parrafo2": "He desarrollado una <span class='res-sobre-mi'>página web</span> para un local de reparación de dispositivos móviles y actualmente estoy <span class='res-sobre-mi'>aprendiendo Java</span>, dando mis primeros pasos en la <span class='res-sobre-mi'>programación</span>. Me interesa seguir explorando distintas áreas del desarrollo y mejorando en lo que me gusta.",
         "sobre_mi.parrafo3": "En el futuro, me gustaría trabajar en <span class='res-sobre-mi'>startups</span> y formar parte de <span class='res-sobre-mi'>proyectos innovadores</span> que me desafíen a seguir creciendo y aprendiendo como desarrollador.",
-        "footer.mensaje": "Siempre abierto a nuevas oportunidades. Escríbeme:"
+        "footer.mensaje": "Siempre abierto a nuevas oportunidades. Escríbeme:",
+        
+        
+        "cv.download": "Descargar CV",
+        "cv.close": "Cerrar CV",
+        "cv.birthdate": "Fecha de nacimiento:",
+        "cv.nationality": "Nacionalidad:",
+        "cv.nationalityCon": "Española",
+        "cv.email": "Email:",
+        "cv.website": "Sitio web:",
+        "cv.github": "GitHub:",
+        "cv.linkedin": "Linkedin:",
+        "cv.address": "Dirección:",
+        "cv.addressCon": "Valencia, España (Domicilio)",
+        "cv.about_me": "Sobre mí",
+        "cv.about_text": "Soy Guillermo y me apasiona el desarrollo web y la programación. Desde siempre me ha interesado la informática, y disfruto aprendiendo por mi cuenta. Actualmente, estoy cursando 1º de DAM para seguir avanzando en el campo de la programación.",
+        "cv.work_experience": "Experiencia laboral",
+
+        "cv.Espanya": "España",
+
+        "cv.education": "Educación y formación",
+        "cv.skills": "Competencias digitales",
+        "cv.languages": "Competencias de idiomas",
+        "cv.projects": "Proyectos",
+        "cv.awards": "Premios y distinciones",
+        "cv.job_title.doctor_phone": "Desarrollo web y ayudante de tienda",
+        "cv.education.dam": "Grado Superior de Desarrollo de Aplicaciones Multiplataforma",
+        "cv.education.smr": "Grado Medio de Sistemas Microinformáticos y Redes",
+        "cv.education.eso": "Graduado en ESO",
+        "cv.skills.programming": "Programación en Java, HTML, CSS y JavaScript",
+        "cv.skills.os": "Administración e instalación de sistemas operativos (Windows y Linux)",
+        "cv.languages.mother": "Lengua materna:",
+        "cv.languages.others": "Otros idiomas:",
+        "cv.awards.video_edition": "1er Premio en Concurso de Video de Montaje (Curso 2022-2023)"
     },
     "en": {
         "nav.experiencia": "Work Experience",
@@ -59,6 +92,40 @@
         "sobre_mi.parrafo1": "My name is <span class='res-sobre-mi'>Guillermo</span> and I am passionate about <span class='res-sobre-mi'>web development</span> and <span class='res-sobre-mi'>programming</span>. I have always been interested in <span class='res-sobre-mi'>computing</span> and have enjoyed learning and exploring on my own. I am currently studying <span class='res-sobre-mi'>1st year of DAM</span> (Development of Multiplatform Applications).",
         "sobre_mi.parrafo2": "I have developed a <span class='res-sobre-mi'>website</span> for a mobile device repair shop and am currently <span class='res-sobre-mi'>learning Java</span>, taking my first steps in <span class='res-sobre-mi'>programming</span>. I am interested in continuing to explore different areas of development and improving in what I love.",
         "sobre_mi.parrafo3": "In the future, I would like to work in <span class='res-sobre-mi'>startups</span> and be part of <span class='res-sobre-mi'>innovative projects</span> that challenge me to keep growing and learning as a developer.",
-        "footer.mensaje": "Always open to new opportunities. Write to me:"
+        "footer.mensaje": "Always open to new opportunities. Write to me:",
+        
+        
+        "cv.download": "Download CV",
+        "cv.close": "Close CV",
+        "cv.birthdate": "Birthdate:",
+        "cv.nationality": "Nationality:",
+        "cv.nationalityCon": "Spanish",
+        "cv.email": "Email:",
+        "cv.website": "Website:",
+        "cv.github": "GitHub:",
+        "cv.linkedin": "Linkedin:",
+        "cv.address": "Address:",
+        
+        "cv.addressCon": "Valencia, Spain (Residence)",
+        "cv.about_me": "About Me",
+        "cv.about_text": "I'm Guillermo, passionate about web development and programming. I've always been interested in computing and enjoy self-learning. Currently studying 1st year of Multiplatform Application Development.",
+        "cv.work_experience": "Work Experience",
+
+        "cv.Espanya": "Spain",
+
+        "cv.education": "Education",
+        "cv.skills": "Digital Skills",
+        "cv.languages": "Language Skills",
+        "cv.projects": "Projects",
+        "cv.awards": "Awards and Honors",
+        "cv.job_title.doctor_phone": "Web Development and Store Assistant",
+        "cv.education.dam": "Higher Degree in Multiplatform Application Development",
+        "cv.education.smr": "Vocational Training in Computer Systems and Networks",
+        "cv.education.eso": "Secondary Education Certificate",
+        "cv.skills.programming": "Programming in Java, HTML, CSS and JavaScript",
+        "cv.skills.os": "OS Administration and Installation (Windows and Linux)",
+        "cv.languages.mother": "Native language:",
+        "cv.languages.others": "Other languages:",
+        "cv.awards.video_edition": "1st Prize in Computer Assembly Video Contest (2022-2023)"
     }
 }
