@@ -194,6 +194,15 @@ body::-webkit-scrollbar-thumb:hover {
 
 /*---*/
 
+.lang-hover{
+    svg{
+        transition: color 0.3s ease-in-out;
+    }
+}
+
 .lang-hover:hover {
     cursor: pointer;
+    svg{
+        color: rgb(61, 61, 61);
+    }
 }
