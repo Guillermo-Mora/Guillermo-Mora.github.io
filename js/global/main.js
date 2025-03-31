@@ -28,3 +28,15 @@ menuLinks.forEach(link => {
 });
 
 /*---*/
+
+
+/*Eliminar los # al navegar a las diferentes secciones, ya que es una unica pagina. Y asi mantengo
+la ULR limpia y es menos lioso*/
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
