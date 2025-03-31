@@ -409,16 +409,6 @@
                     <li>Mantenimiento de equipos informáticos.</li>
                   </ul>
                 </li>
-                <li>
-                  <p><small>27/04/2022 – 31/08/2022 Valencia, España</small></p>
-                  <h3>CAMARERO ASALARIADO <span>LUZ DE LUNA</span></h3>
-                  <hr>
-                  <ul>
-                    <li>Atención al cliente y servicio en barra y mesas.</li>
-                    <li>Limpieza del local y mantenimiento general.</li>
-                    <li>Reposición de productos y organización en barra y almacén.</li>
-                  </ul>
-                </li>
               </ul>
             </li>
             <li>
@@ -609,6 +599,7 @@
     }
 
     // Evento para cambiar idioma (puedes llamar a esta función desde tus botones de idioma)
+    // AQUI HAY QUE CAMBIARLO, YA QUE EL GET BY ID SOLO COGE EL PRIMERO, Y TENGO 2.
     document.getElementById('abrirLang').addEventListener('click', function () {
       const currentLang = localStorage.getItem('language') || 'es';
       const newLang = currentLang === 'es' ? 'en' : 'es';
