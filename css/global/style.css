@@ -112,6 +112,10 @@ nav div>a>div.menu:first-child {
     margin: -11px 0;
 }
 
+.lang_movil {
+    display: none;
+}
+
 /*---*/
 
 /*Footer*/
