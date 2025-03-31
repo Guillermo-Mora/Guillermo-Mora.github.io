@@ -308,10 +308,18 @@ p.en-desarrollo {
 
 /*Contenedor para div CV*/
 
-div.items-cv, div.items-lang {
+div.items-cv {
     width: 100%;
     height: 100%;
     max-width: 864px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.items-lang {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -557,6 +565,36 @@ section.seccion-cv {
         >li {
             padding-bottom: 5px;
         }
+    }
+}
+
+/*---*/
+
+
+/*Lang Estilos contenido */
+
+section.seccion-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > div {
+        width: 100%;
+        text-align: center;
+        transition: cursor ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    }
+
+    > div:hover {
+        cursor: pointer;
+        background-color: rgb(209, 209, 209);
+    }
+
+    > div:first-child {
+        border-right: 1px solid black;
+    }
+
+    > div:last-child {
+        border-left: 1px solid black;
     }
 }
 

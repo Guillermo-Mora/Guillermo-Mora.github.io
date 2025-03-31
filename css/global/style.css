@@ -193,3 +193,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /*---*/
+
+.lang-hover:hover {
+    cursor: pointer;
+}
