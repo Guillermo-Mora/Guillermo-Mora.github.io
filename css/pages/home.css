@@ -308,7 +308,7 @@ p.en-desarrollo {
 
 /*Contenedor para div CV*/
 
-div.items-cv {
+div.items-cv, div.items-lang {
     width: 100%;
     height: 100%;
     max-width: 864px;
@@ -317,7 +317,7 @@ div.items-cv {
 }
 
 
-.contenedor-cv {
+.contenedor-cv, .contenedor-lang {
     position: fixed;
     top: 0;
     justify-content: center;
@@ -329,17 +329,17 @@ div.items-cv {
     background-color: rgba(0, 0, 0, 0.582);
 }
 
-.contenedor-cv-activado {
+.contenedor-cv-activado, .contenedor-lang-activado {
     z-index: 2;
     display: flex;
     transition: opacity ease-in-out 0.3s;
 }
 
-.contenedor-cv-visible {
+.contenedor-cv-visible, .contenedor-lang-visible {
     opacity: 1;
 }
 
-section.seccion-cv {
+section.seccion-cv, section.seccion-lang {
     background-color: whitesmoke;
     border: 2px solid;
     width: 100%;
@@ -348,7 +348,7 @@ section.seccion-cv {
     overflow-y: auto;
 }
 
-div.botones-cv>.boton-cv {
+div.botones-cv>.boton-cv, div.botones-lang>.boton-lang {
     border: 2px solid black;
     display: flex;
     align-items: center;
@@ -357,7 +357,7 @@ div.botones-cv>.boton-cv {
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.075);
 }
 
-div.botones-cv {
+div.botones-cv, div.botones-lang {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -371,15 +371,15 @@ div.botones-cv {
     }
 }
 
-div.botones-cv>.boton-cv:hover {
+div.botones-cv>.boton-cv:hover, div.botones-lang>.boton-lang:hover {
     cursor: pointer;
 }
 
-.cerrar-cv {
+.cerrar-cv, .cerrar-lang {
     background-color: rgb(255, 199, 199);
 }
 
-.cerrar-cv:hover {
+.cerrar-cv:hover, .cerrar-lang:hover {
     background-color: rgb(255, 141, 141);
 }
 

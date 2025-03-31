@@ -24,6 +24,33 @@ cerrarMenuCV.addEventListener('click', () => {
 
 /*---*/
 
+/*Abrir y cerrar Menú idioma*/
+
+const abrirLang = document.querySelectorAll('#abrirLang');
+const divLang = document.querySelector('.contenedor-lang');
+const cerrarMenuLang = document.querySelector('.cerrar-lang');
+
+abrirLang.forEach(boton => {
+    boton.addEventListener('click', () => {
+        divLang.classList.toggle('contenedor-lang-activado');
+        cuerpo.classList.toggle('scroll-inactivo');
+        setTimeout(() => {
+            divLang.classList.toggle('contenedor-lang-visible');
+        }, 10);
+    });
+});
+
+cerrarMenuLang.addEventListener('click', () => {
+    divLang.classList.remove('contenedor-lang-visible');
+    setTimeout(() => {
+        divLang.classList.remove('contenedor-lang-activado');
+        cuerpo.classList.remove('scroll-inactivo');
+    }, 300);
+});
+
+
+/*---*/
+
 /*Abrir y cerrar video*/
 
 const abrirVideo = document.querySelector('#abrirVideo');
