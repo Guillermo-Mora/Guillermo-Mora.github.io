@@ -29,8 +29,6 @@
         "sobre_mi.parrafo2": "He desarrollado una <span class='res-sobre-mi'>página web</span> para un local de reparación de dispositivos móviles y actualmente estoy <span class='res-sobre-mi'>aprendiendo Java</span>, dando mis primeros pasos en la <span class='res-sobre-mi'>programación</span>. Me interesa seguir explorando distintas áreas del desarrollo y mejorando en lo que me gusta.",
         "sobre_mi.parrafo3": "En el futuro, me gustaría trabajar en <span class='res-sobre-mi'>startups</span> y formar parte de <span class='res-sobre-mi'>proyectos innovadores</span> que me desafíen a seguir creciendo y aprendiendo como desarrollador.",
         "footer.mensaje": "Siempre abierto a nuevas oportunidades. Escríbeme:",
-        
-        
         "cv.download": "Descargar CV",
         "cv.close": "Cerrar CV",
         "cv.birthdate": "Fecha de nacimiento:",
@@ -45,15 +43,20 @@
         "cv.about_me": "Sobre mí",
         "cv.about_text": "Soy Guillermo y me apasiona el desarrollo web y la programación. Desde siempre me ha interesado la informática, y disfruto aprendiendo por mi cuenta. Actualmente, estoy cursando 1º de DAM para seguir avanzando en el campo de la programación.",
         "cv.work_experience": "Experiencia laboral",
-
         "cv.Espanya": "España",
-
+        "cv.actual": "ACTUAL",
         "cv.education": "Educación y formación",
         "cv.skills": "Competencias digitales",
         "cv.languages": "Competencias de idiomas",
         "cv.projects": "Proyectos",
         "cv.awards": "Premios y distinciones",
         "cv.job_title.doctor_phone": "Desarrollo web y ayudante de tienda",
+        "cv.job_responsibility.1": "Desarrollo de la web para el local, principalmente en HTML y CSS, y gestión del SEO.",
+        "cv.job_responsibility.2": "Gestión de redes sociales y publicidad.",
+        "cv.job_responsibility.3": "Rediseño del logotipo e imagen del local.",
+        "cv.job_responsibility.4": "Atención al cliente.",
+        "cv.job_responsibility.5": "Reparación de teléfonos móviles y portátiles.",
+        "cv.job_responsibility.6": "Mantenimiento de equipos informáticos.",
         "cv.education.dam": "Grado Superior de Desarrollo de Aplicaciones Multiplataforma",
         "cv.education.smr": "Grado Medio de Sistemas Microinformáticos y Redes",
         "cv.education.eso": "Graduado en ESO",
@@ -93,8 +96,6 @@
         "sobre_mi.parrafo2": "I have developed a <span class='res-sobre-mi'>website</span> for a mobile device repair shop and am currently <span class='res-sobre-mi'>learning Java</span>, taking my first steps in <span class='res-sobre-mi'>programming</span>. I am interested in continuing to explore different areas of development and improving in what I love.",
         "sobre_mi.parrafo3": "In the future, I would like to work in <span class='res-sobre-mi'>startups</span> and be part of <span class='res-sobre-mi'>innovative projects</span> that challenge me to keep growing and learning as a developer.",
         "footer.mensaje": "Always open to new opportunities. Write to me:",
-        
-        
         "cv.download": "Download CV",
         "cv.close": "Close CV",
         "cv.birthdate": "Birthdate:",
@@ -105,20 +106,24 @@
         "cv.github": "GitHub:",
         "cv.linkedin": "Linkedin:",
         "cv.address": "Address:",
-        
         "cv.addressCon": "Valencia, Spain (Residence)",
         "cv.about_me": "About Me",
         "cv.about_text": "I'm Guillermo, passionate about web development and programming. I've always been interested in computing and enjoy self-learning. Currently studying 1st year of Multiplatform Application Development.",
         "cv.work_experience": "Work Experience",
-
         "cv.Espanya": "Spain",
-
+        "cv.actual": "CURRENTLY",
         "cv.education": "Education",
         "cv.skills": "Digital Skills",
         "cv.languages": "Language Skills",
         "cv.projects": "Projects",
         "cv.awards": "Awards and Honors",
         "cv.job_title.doctor_phone": "Web Development and Store Assistant",
+        "cv.job_responsibility.1": "Development of the store's website using HTML and CSS, including SEO management.",
+        "cv.job_responsibility.2": "Social media and advertising management.",
+        "cv.job_responsibility.3": "Logo and brand identity redesign.",
+        "cv.job_responsibility.4": "Customer service.",
+        "cv.job_responsibility.5": "Mobile phone and laptop repairs.",
+        "cv.job_responsibility.6": "IT equipment maintenance and troubleshooting.",
         "cv.education.dam": "Higher Degree in Multiplatform Application Development",
         "cv.education.smr": "Vocational Training in Computer Systems and Networks",
         "cv.education.eso": "Secondary Education Certificate",
