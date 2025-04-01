@@ -1,5 +1,6 @@
 {
     "es": {
+        "cerrar-lang": "Cerrar",
         "nav.experiencia": "Experiencia",
         "nav.sobre_mi": "Sobre mí",
         "nav.contacto": "Contacto",
@@ -87,6 +88,7 @@
         "cv.awards.video_desc": "Concurso organizado por el Departamento de Informática del IES Serpis, donde se premiaba la creatividad y calidad técnica en la edición de videos. El proyecto consistió en documentar, grabar y editar un video que mostraba el proceso completo de montaje de un ordenador de sobremesa desde cero."
     },
   "en": {
+    "cerrar-lang": "Close",
     "nav.experiencia": "Work Experience",
     "nav.sobre_mi": "About me", 
     "nav.contacto": "Contact",

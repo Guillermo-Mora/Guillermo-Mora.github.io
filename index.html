@@ -355,8 +355,8 @@
   <div class="contenedor-cv">
     <div class="items-cv">
       <div class="botones-cv">
-        <a class="descargar-cv boton-cv" href="doc/Guillermo-Mora-Mortes-CV.pdf" download="Guillermo-Mora-Mortes-CV.pdf"
-          data-title-key="cv.download">
+        <a class="descargar-cv boton-cv" id="cvDownloadLink" href="doc/Guillermo-Mora-Mortes-CV.pdf"
+          download="Guillermo-Mora-Mortes-CV.pdf" data-title-key="cv.download">
           <img src="img/pages/home/descargarCV.svg" alt="Descargar CV" data-key="cv.download">
         </a>
         <div class="cerrar-cv boton-cv" data-title-key="cv.close">
@@ -413,7 +413,8 @@
               <ul>
                 <li>
                   <p><small>19/03/2024 – 22/06/2024 Valencia, <span data-key="cv.Espanya">España</span></small></p>
-                  <h3 data-key="cv.job_title.doctor_phone" data-html="true">DESARROLLO WEB Y AYUDANTE DE TIENDA <span>DOCTOR PHONE</span>
+                  <h3 data-key="cv.job_title.doctor_phone" data-html="true">DESARROLLO WEB Y AYUDANTE DE TIENDA
+                    <span>DOCTOR PHONE</span>
                   </h3>
                   <hr>
                   <ul>
@@ -435,7 +436,8 @@
                 <li>
                   <p><small>09/09/2024 – <span data-key="cv.actual">ACTUAL</span> Valencia, <span
                         data-key="cv.Espanya">España</span></small></p>
-                  <h3 data-key="cv.education.dam" data-html="true">GRADO SUPERIOR DE DESARROLLO DE APLICACIONES MULTIPLATAFORMA <span>IES
+                  <h3 data-key="cv.education.dam" data-html="true">GRADO SUPERIOR DE DESARROLLO DE APLICACIONES
+                    MULTIPLATAFORMA <span>IES
                       Serpis</span></h3>
                   <hr>
                   <p><b data-key="cv.website">Web: </b> <a
@@ -444,7 +446,8 @@
                 </li>
                 <li>
                   <p><small>09/09/2022 – 20/06/2024 Valencia, <span data-key="cv.Espanya">España</span></small></p>
-                  <h3 data-key="cv.education.smr" data-html="true">GRADO MEDIO DE SISTEMAS MICROINFORMÁTICOS Y REDES <span>IES
+                  <h3 data-key="cv.education.smr" data-html="true">GRADO MEDIO DE SISTEMAS MICROINFORMÁTICOS Y REDES
+                    <span>IES
                       Serpis</span></h3>
                   <hr>
                   <ul>
@@ -568,7 +571,7 @@
     <div class="items-lang">
       <div class="botones-lang">
         <div class="cerrar-lang boton-lang">
-          <img src="img/pages/home/menuCerrar.svg" alt="Cerrar" title="Cerrar">
+          <img src="img/pages/home/menuCerrar.svg" alt="Cerrar" title="Cerrar" data-title-key="cerrar-lang">
         </div>
       </div>
       <section class="seccion-lang">
@@ -624,6 +627,14 @@
           }
         }
       });
+
+      // Actualizar enlace de CV
+      const cvLink = document.getElementById('cvDownloadLink');
+      if (lang === 'en') {
+        cvLink.href = "doc/Guillermo-Mora-Mortes-CV-EN.pdf";
+      } else {
+        cvLink.href = "doc/Guillermo-Mora-Mortes-CV.pdf";
+      }
 
       // Actualizar atributos title
       document.querySelectorAll('[data-title-key]').forEach(element => {
