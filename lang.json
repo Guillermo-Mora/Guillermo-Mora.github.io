@@ -83,7 +83,8 @@
         "cv.languages.1": "INGLÉS",
         "cv.languages.2": "VALENCIANO",
         "cv.languages.others": "Otros idiomas:",
-        "cv.awards.video_edition": "1er Premio en Concurso de Video de Montaje (Curso 2022-2023)"
+        "cv.awards.video_edition": "1er Premio en Concurso de Video de Montaje (Curso 2022-2023)",
+        "cv.awards.video_desc": "Concurso organizado por el Departamento de Informática del IES Serpis, donde se premiaba la creatividad y calidad técnica en la edición de videos. El proyecto consistió en documentar, grabar y editar un video que mostraba el proceso completo de montaje de un ordenador de sobremesa desde cero."
     },
     "en": {
         "nav.experiencia": "Work Experience",
@@ -169,6 +170,7 @@
         "cv.languages.1": "ENGLISH",
         "cv.languages.2": "VALENCIAN",
         "cv.languages.others": "Other languages:",
-        "cv.awards.video_edition": "1st Prize in Computer Assembly Video Contest (2022-2023)"
+        "cv.awards.video_edition": "1st Prize in Computer Assembly Video Contest (2022-2023)",
+        "cv.awards.video_desc": "Contest organized by the Computer IT Department at IES Serpis, awarding creativity and technical quality in video editing. The project involved documenting, filming, and editing a video demonstrating the complete process of assembling a desktop computer from scratch."
     }
 }
