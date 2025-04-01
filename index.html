@@ -575,10 +575,10 @@
         </div>
       </div>
       <section class="seccion-lang">
-        <div title="Español">
+        <div title="Español" class="lang-option" data-lang="es">
           <p>ESP</p>
         </div>
-        <div title="English">
+        <div title="English" class="lang-option" data-lang="en">
           <p>ENG</p>
         </div>
       </section>
@@ -587,7 +587,7 @@
   <div class="contenedor-video">
     <section class="seccion-video">
       <div class="cerrar-video">
-        <img src="img/pages/home/menuCerrar.svg" alt="Cerrar Video" title="Cerrar Video">
+        <img src="img/pages/home/menuCerrar.svg" alt="Cerrar Video" title="Cerrar Video" data-title-key="cerrar-video">
       </div>
       <video src="video/pages/home/GSMSmart-Project.mp4" controls muted class="video-gsm"
         poster="img/pages/home/GSMSmart_Project.webp"></video>
@@ -595,70 +595,7 @@
   </div>
   <script src="js/global/main.js" async></script>
   <script src="js/pages/home.js" async></script>
-
-
-
-  <script>
-    // Cargar el archivo lang.json
-    let translations = {};
-
-    fetch('lang.json')
-      .then(response => response.json())
-      .then(data => {
-        translations = data;
-        // Establecer idioma por defecto (español)
-        setLanguage('en');
-      })
-      .catch(error => console.error('Error loading language file:', error));
-
-    function setLanguage(lang) {
-      // Guardar preferencia en localStorage
-      localStorage.setItem('language', lang);
-
-      // Actualizar todos los elementos con data-key
-      document.querySelectorAll('[data-key]').forEach(element => {
-        const key = element.getAttribute('data-key');
-        if (translations[lang] && translations[lang][key]) {
-          // Para elementos que contienen HTML
-          if (element.hasAttribute('data-html')) {
-            element.innerHTML = translations[lang][key];
-          } else {
-            element.textContent = translations[lang][key];
-          }
-        }
-      });
-
-      // Actualizar enlace de CV
-      const cvLink = document.getElementById('cvDownloadLink');
-      if (lang === 'en') {
-        cvLink.href = "doc/Guillermo-Mora-Mortes-CV-EN.pdf";
-      } else {
-        cvLink.href = "doc/Guillermo-Mora-Mortes-CV.pdf";
-      }
-
-      // Actualizar atributos title
-      document.querySelectorAll('[data-title-key]').forEach(element => {
-        const titleKey = element.getAttribute('data-title-key');
-        if (translations[lang] && translations[lang][titleKey]) {
-          element.setAttribute('title', translations[lang][titleKey]);
-        }
-      });
-    }
-
-    // Evento para cambiar idioma (puedes llamar a esta función desde tus botones de idioma)
-    // AQUI HAY QUE CAMBIARLO, YA QUE EL GET BY ID SOLO COGE EL PRIMERO, Y TENGO 2.
-    document.getElementById('abrirLang').addEventListener('click', function () {
-      const currentLang = localStorage.getItem('language') || 'es';
-      const newLang = currentLang === 'es' ? 'en' : 'es';
-      setLanguage(newLang);
-    });
-
-    // Cargar idioma guardado al iniciar
-    document.addEventListener('DOMContentLoaded', function () {
-      const savedLang = localStorage.getItem('language') || 'es';
-      setLanguage(savedLang);
-    });
-  </script>
+  <script src="js/global/lang.js" async></script>
 </body>
 
 </html>

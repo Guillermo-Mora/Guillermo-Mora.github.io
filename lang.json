@@ -1,6 +1,7 @@
 {
     "es": {
         "cerrar-lang": "Cerrar",
+        "cerrar-video": "Cerrar Video",
         "nav.experiencia": "Experiencia",
         "nav.sobre_mi": "Sobre mí",
         "nav.contacto": "Contacto",
@@ -89,6 +90,7 @@
     },
   "en": {
     "cerrar-lang": "Close",
+    "cerrar-video": "Close Video",
     "nav.experiencia": "Work Experience",
     "nav.sobre_mi": "About me", 
     "nav.contacto": "Contact",
