@@ -6,7 +6,7 @@ fetch('lang.json')
     .then(data => {
         translations = data;
         // Establecer idioma por defecto (español)
-        setLanguage('en');
+        setLanguage('es');
     })
     .catch(error => console.error('Error loading language file:', error));
 
