@@ -100,23 +100,15 @@ div.enlaces {
     gap: 20px;
 }
 
-div.enlaces button {
-    background: none;
-    border: none;
-    font-size: 40px;
-    width: 70px;
-    height: 70px;
-    padding: 0;
-}
-
-div.enlaces button:last-child {
+div.enlaces a:last-child {
     margin-right: 0;
 }
 
-div.enlaces button a {
+div.enlaces a {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
     display: flex;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
     background-color: rgba(237, 164, 255, 0.322);
@@ -127,11 +119,11 @@ div.enlaces button a {
     color: black;
 }
 
-div.enlaces button a svg {
+div.enlaces a svg {
     transition: scale ease-in-out 0.2s;
 }
 
-div.enlaces button a:visited {
+div.enlaces a:visited {
     color: black;
 }
 
