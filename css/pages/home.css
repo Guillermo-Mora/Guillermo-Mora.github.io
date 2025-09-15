@@ -35,7 +35,7 @@ section {
 }
 
 img.foto-personal-1 {
-    background-color: rgba(237, 164, 255, 0.322);
+    background-color: rgba(176, 224, 210, 0.74);
     box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     border: 2px solid;
     border-radius: 100%;
@@ -51,7 +51,7 @@ img.foto-personal-2 {
 }
 
 span.color-resalte {
-    color: rgb(185, 34, 255);
+    color: rgba(35, 114, 90, 0.74);
 }
 
 div.div-izquierda {
@@ -111,7 +111,7 @@ div.enlaces a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(237, 164, 255, 0.322);
+    background-color: rgba(176, 224, 210, 0.74);
     box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     border: 2px solid;
     border-radius: 20px;
@@ -130,7 +130,7 @@ div.enlaces a:visited {
 div.enlaces a:hover {
     cursor: pointer;
     color: rgb(61, 61, 61) !important;
-    background-color: rgba(204, 94, 255, 0.377);
+    background-color: rgba(63, 151, 123, 0.377);
 
     svg {
         scale: 1.2;
@@ -163,7 +163,7 @@ div.titulo-exp {
 }
 
 div.titulo-exp h3:nth-child(1) {
-    color: rgb(185, 34, 255);
+    color: rgba(35, 114, 90, 0.74);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -191,7 +191,7 @@ div.desc-exp p:first-child {
 }
 
 li.li-estilo-exp::marker {
-    color: rgb(185, 34, 255);
+    color: rgba(53, 134, 110, 0.74);
     font-size: 1.5rem;
 }
 
@@ -264,7 +264,7 @@ div.proy-divs div:nth-child(2) button a {
     font-family: 'Lexenda';
     font-size: 1rem;
     transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
-    background-color: rgba(237, 164, 255, 0.322);
+    background-color: rgba(176, 224, 210, 0.74);
     box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
     padding: 10px;
     border: 2px solid black;
@@ -281,7 +281,7 @@ div.proy-divs button a:visited {
 
 div.proy-divs button a:hover {
     color: rgb(61, 61, 61) !important;
-    background-color: rgba(204, 94, 255, 0.377) !important;
+    background-color: rgba(63, 151, 123, 0.377) !important;
 }
 
 h3.titulo-proy {
@@ -718,14 +718,11 @@ div.div-sobre-mi {
 
 div.div-izq-sobre-mi {
     width: 70%;
-    /*No hay foto de momento para poner (Quitar el width 100% cuando se tenga la foto)*/
-    width: 100%;
-    /*---*/
 }
 
 img.img-sobre-mi-1 {
+    object-fit: cover;
     width: 30%;
-    height: 30%;
     margin-left: 40px;
     border: 2px dashed;
     border-radius: 35px;
@@ -734,24 +731,12 @@ img.img-sobre-mi-1 {
     rotate: 4deg;
     aspect-ratio: 1/1;
     transition: rotate ease-in-out 0.2s;
-    /*No hay foto de momento para poner (Quitar el display none cuando se tenga la foto)*/
-    display: none;
-    /*---*/
+    
 }
 
 img.img-sobre-mi-2 {
-    /*No hay foto de momento para poner (Quitar !important cuando se tenga la foto)*/
-    display: none !important;
-    /*---*/
+    display: none;
 }
-
-/*No hay foto de momento para poner (Quitar todo lo de dentro cuando se tenga la foto)*/
-section.sec-sobre-mi {
-    h1 {
-        margin-bottom: 20px !important;
-    }
-}
-/*---*/
 
 span.res-sobre-mi {
     color: #007ec7;

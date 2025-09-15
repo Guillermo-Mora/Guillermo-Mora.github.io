@@ -124,7 +124,7 @@
     }
 
     img.foto-personal-2 {
-        background-color: rgba(237, 164, 255, 0.322);
+        background-color: rgba(176, 224, 210, 0.74);
         box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
         border: 2px solid;
         border-radius: 100%;
@@ -161,6 +161,7 @@
 
     img.img-sobre-mi-2 {
         display: block;
+        object-fit: cover;
         width: 40%;
         margin-left: 40px;
         border: 2px dashed;

@@ -27,7 +27,7 @@
         "botones.preview": "Preview",
         "botones.codigo": "Código",
         "sobre_mi.titulo": "Sobre mí",
-        "sobre_mi.parrafo1": "Me llamo <span class='res-sobre-mi'>Guillermo</span> y me apasiona el <span class='res-sobre-mi'>desarrollo web</span> y la <span class='res-sobre-mi'>programación</span>. Siempre me ha interesado la <span class='res-sobre-mi'>informática</span> y he disfrutado aprendiendo y curioseando por mi cuenta. Actualmente me encuentro cursando <span class='res-sobre-mi'>2º de DAM</span>.",
+        "sobre_mi.parrafo1": "Me apasiona el <span class='res-sobre-mi'>desarrollo web</span> y la <span class='res-sobre-mi'>programación</span>. Siempre me ha interesado la <span class='res-sobre-mi'>informática</span> y he disfrutado aprendiendo y curioseando por mi cuenta. Actualmente me encuentro cursando <span class='res-sobre-mi'>2º de DAM</span>.",
         "sobre_mi.parrafo2": "He desarrollado una <span class='res-sobre-mi'>página web</span> para un local de reparación de dispositivos móviles y actualmente estoy <span class='res-sobre-mi'>aprendiendo Java</span>, dando mis primeros pasos en la <span class='res-sobre-mi'>programación</span>. Me interesa seguir explorando distintas áreas del desarrollo y mejorando en lo que me gusta.",
         "sobre_mi.parrafo3": "En el futuro, me gustaría trabajar en <span class='res-sobre-mi'>startups</span> y formar parte de <span class='res-sobre-mi'>proyectos innovadores</span> que me desafíen a seguir creciendo y aprendiendo como desarrollador.",
         "footer.mensaje": "Siempre abierto a nuevas oportunidades. Escríbeme:",
