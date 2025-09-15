@@ -143,6 +143,10 @@ div.enlaces a:hover {
 ul.ul-exp-laboral {
     padding-left: 29px;
     margin-bottom: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 div.exp-laboral {
