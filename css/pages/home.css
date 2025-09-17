@@ -336,7 +336,7 @@ div.items-lang {
 
 .contenedor-cv-activado,
 .contenedor-lang-activado {
-    z-index: 2;
+    z-index: 4;
     display: flex;
     transition: opacity ease-in-out 0.3s;
 }
