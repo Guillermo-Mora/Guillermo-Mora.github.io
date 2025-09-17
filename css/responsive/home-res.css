@@ -161,21 +161,18 @@
 
     img.img-sobre-mi-2 {
         display: block;
-        object-fit: cover;
-        width: 40%;
-        margin-left: 40px;
-        border: 2px dashed;
-        border-radius: 35px;
-        background-color: #97d9ff4f;
-        box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
-        rotate: 4deg;
-        aspect-ratio: 1/1;
-        transition: rotate ease-in-out 0.2s;
-        margin: 0 auto;
-        margin-bottom: 30px;
     }
 
     h1#sobre-mi {
         margin-bottom: 23px;
     }
+
+    .img-sobre-mi-container2 {
+        display: block;
+    }
+
+    div.img-sobre-mi-container {
+        display: none;
+    }
+
 }
