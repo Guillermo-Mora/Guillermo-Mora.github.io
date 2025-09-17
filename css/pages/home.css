@@ -36,8 +36,8 @@ section {
 
 img.foto-personal-1 {
     background-color: rgba(176, 224, 210, 0.74);
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
-    border: 2px solid;
+    box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.055);
+    border: 1px solid rgba(35, 114, 90, 0.301);
     border-radius: 100%;
     aspect-ratio: 1/1;
     transition: width ease-in-out 0.2s;
@@ -70,10 +70,10 @@ div.caja-tecnologias div {
     width: 70px;
     height: 70px;
     background-color: #ffffff6c;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.025);
+    box-shadow: 6px 10px 3px rgba(0, 0, 0, 0.025);
     transition: box-shadow ease-in-out 0.2s;
 }
 
@@ -112,8 +112,8 @@ div.enlaces a {
     justify-content: center;
     align-items: center;
     background-color: rgba(176, 224, 210, 0.74);
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
-    border: 2px solid;
+    box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.055);
+    border: 1px solid rgba(35, 114, 90, 0.301);
     border-radius: 20px;
     transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
     color: black;
@@ -216,9 +216,9 @@ div.proy-divs img.img-proy-izq {
     width: 50%;
     height: 50%;
     margin-right: 40px;
-    border: 2px solid;
+    border: 1px solid rgba(35, 114, 90, 0.301);
     border-radius: 35px;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
+    box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.055);
     aspect-ratio: 16/9;
     transition: scale ease-in-out 0.2s, border-color ease-in-out 0.2s;
 }
@@ -232,8 +232,8 @@ div.proy-divs div.tec-usadas {
     width: fit-content;
     padding: 10px;
     border-radius: 20px;
-    border: 2px solid white;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.034);
+    border: 1px solid white;
+    box-shadow: 6px 10px 6px rgba(0, 0, 0, 0.034);
     transition: box-shadow ease-in-out 0.2s;
 }
 
@@ -265,9 +265,9 @@ div.proy-divs div:nth-child(2) button a {
     font-size: 1rem;
     transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
     background-color: rgba(176, 224, 210, 0.74);
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
+    box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.055);
     padding: 10px;
-    border: 2px solid black;
+    border: 1px solid rgba(35, 114, 90, 0.301);;
     width: 100%;
     border-radius: 20px;
     color: black;
@@ -759,10 +759,10 @@ img.img-sobre-mi-1 {
     object-fit: cover;
     width: 100%;
     margin-left: 40px;
-    border: 2px dashed;
+    border: 1px dashed rgb(19, 75, 58);
     border-radius: 35px;
     background-color: #97d9ff4f;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
+    box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.055);
     rotate: 4deg;
     aspect-ratio: 1/1;
     transition: rotate ease-in-out 0.2s;
@@ -774,10 +774,10 @@ img.img-sobre-mi-2 {
     object-fit: cover;
     width: 40%;
     margin-left: 40px;
-    border: 2px dashed;
+    border: 1px dashed rgb(19, 75, 58);
     border-radius: 35px;
     background-color: #97d9ff4f;
-    box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
+    box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.055);
     rotate: 4deg;
     aspect-ratio: 1/1;
     transition: rotate ease-in-out 0.2s;
