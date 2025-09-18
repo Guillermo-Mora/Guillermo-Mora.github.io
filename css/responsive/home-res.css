@@ -1,29 +1,3 @@
-@media (min-width: 450px) {
-    section:hover h1.titulo {
-        font-size: 35px;
-    }
-
-    section:hover h1.titulo svg {
-        scale: 1.4;
-        top: -1.5px;
-    }
-
-    section:first-child:hover img.foto-personal-1 {
-        width: 32%;
-    }
-
-    section.sec-sobre-mi:hover {
-        img.img-sobre-mi-2 {
-            rotate: 7deg;
-        }
-    }
-
-    div.proy-divs img.img-proy-izq:hover {
-        scale: 1.03;
-        border-color: gray;
-    }
-}
-
 @media (max-width: 720px) {
     div.exp-laboral {
         display: block;
@@ -125,8 +99,8 @@
 
     img.foto-personal-2 {
         background-color: rgba(176, 224, 210, 0.74);
-        box-shadow: 6px 10px 0px rgba(0, 0, 0, 0.075);
-        border: 2px solid;
+        box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.055);
+        border: 1px solid rgba(35, 114, 90, 0.301);
         border-radius: 100%;
         aspect-ratio: 1/1;
         display: block;

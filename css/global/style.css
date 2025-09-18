@@ -33,17 +33,20 @@ main {
 /*Header menu*/
 
 header.menu {
-    margin: 10px 40px;
     padding: 20px;
-    border: 1px solid rgba(35, 114, 90, 0.151);
-    border-radius: 35px;
+    border-bottom: 1px solid rgba(35, 114, 90, 0.151);
+    border-left: 1px solid rgba(35, 114, 90, 0.151);
+    border-right: 1px solid rgba(35, 114, 90, 0.151);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
     background-color: #35c6ff80;
     backdrop-filter: blur(10px);
     position: sticky;
     margin: 10px auto;
+    margin-top: 0px;
     max-width: 1096px;
-    top: 10px;
-    box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.055);
+    top: 0px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.055);
     z-index: 2;
 }
 
@@ -132,7 +135,7 @@ p.pie {
 }
 
 footer {
-    border-top: 1px solid rgba(35, 114, 90, 0.397);
+    border-top: 1px solid rgba(35, 114, 90, 0.151);
 }
 
 footer div {
@@ -145,7 +148,7 @@ footer div:first-child>p:first-child {
 
 footer div.pie:nth-child(1) {
     background-color: #35c6ff80;
-    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.075);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.055);
     text-align: center;
 }
 
@@ -155,16 +158,16 @@ footer div.pie:nth-child(2) {
 
 footer a {
     color: black;
-    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
     border: 1px solid rgba(35, 114, 90, 0.301);
     padding: 10px 15px;
     border-radius: 35px;
     background-color: rgba(249, 224, 255, 0.267);
-    box-shadow: 6px 10px 5px rgba(0, 0, 0, 0.055);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.055);
 }
 
 footer a:hover {
-    color: rgb(61, 61, 61);
+    background-color: rgba(135, 207, 255, 0.438);
 }
 
 /*---*/
