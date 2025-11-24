@@ -25,7 +25,7 @@ cerrarMenuCV.addEventListener('click', () => {
 /*---*/
 
 /*Abrir y cerrar Menú idioma*/
-
+/*
 const abrirLang = document.querySelectorAll('#abrirLang');
 const divLang = document.querySelector('.contenedor-lang');
 const cerrarMenuLang = document.querySelector('.cerrar-lang');
@@ -47,7 +47,7 @@ cerrarMenuLang.addEventListener('click', () => {
         cuerpo.classList.remove('scroll-inactivo');
     }, 300);
 });
-
+*/
 
 /*---*/
 
@@ -75,5 +75,4 @@ cerrarMenuVideo.addEventListener('click', () => {
         video.src = video.src;
     }, 300)
 });
-
 /*---*/

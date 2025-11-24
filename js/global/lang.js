@@ -1,4 +1,5 @@
 // Cargar el archivo lang.json
+/*
 let translations = {};
 
 fetch('lang.json')
@@ -27,6 +28,7 @@ function setLanguage(lang) {
         }
     });
 
+    /*
     // Actualizar enlace de CV
     const cvLink = document.getElementById('cvDownloadLink');
     if (lang === 'en') {
@@ -34,7 +36,8 @@ function setLanguage(lang) {
     } else {
         cvLink.href = "doc/Guillermo-Mora-Mortes-CV.pdf";
     }
-
+    */
+/*
     // Actualizar atributos title
     document.querySelectorAll('[data-title-key]').forEach(element => {
         const titleKey = element.getAttribute('data-title-key');
@@ -57,3 +60,4 @@ document.addEventListener('DOMContentLoaded', function () {
     const savedLang = localStorage.getItem('language') || 'es';
     setLanguage(savedLang);
 });
+*/
