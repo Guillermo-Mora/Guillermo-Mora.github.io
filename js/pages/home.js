@@ -1,5 +1,5 @@
 /*Abrir y cerrar CV*/
-
+/*
 const abrirCV = document.querySelector('#abrirCV');
 const divCV = document.querySelector('.contenedor-cv');
 const cuerpo = document.querySelector('.scroll-activo');
@@ -21,7 +21,7 @@ cerrarMenuCV.addEventListener('click', () => {
         cuerpo.classList.remove('scroll-inactivo');
     }, 300)
 });
-
+*/
 /*---*/
 
 /*Abrir y cerrar Menú idioma*/
