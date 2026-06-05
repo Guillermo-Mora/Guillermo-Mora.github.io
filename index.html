@@ -18,7 +18,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HBXR94MSPB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-HBXR94MSPB');
@@ -98,8 +98,8 @@
             data-key="intro.name"> Guille</span>
         </h1>
         <img src="img/pages/home/Guillermo_Mora.webp" alt="Foto de Guillermo Mora" class="foto-personal-2">
-        <p class="parrafo-intro" data-key="intro.parrafo">Estoy aprendiendo a programar y a trabajar con nuevas tecnologías.
-          Me encanta resolver problemas y estoy motivado por aprender cada día más.</p>
+        <p class="parrafo-intro" data-key="intro.parrafo">Programador. Me encanta resolver problemas y aprender cosas
+          nuevas cada día.</p>
         <div class="enlaces">
           <a id="" title="CV" href="doc/Guillermo-Mora-Mortes-CV.pdf" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none"
@@ -181,6 +181,22 @@
             </div>
           </div>
         </li>
+        <li class="li-estilo-exp">
+          <div class="exp-laboral">
+            <div class="titulo-exp">
+              <h3>Manejo del ERP Odoo (FCT)</h3>
+              <h3>UPV</h3>
+              <small>Abril - Junio 2026</small>
+            </div>
+            <div class="desc-exp">
+              <p>Formación en el manejo del ERP Odoo, abarcando migraciones y configuración de módulos como ventas,
+                inventario,
+                compras y facturación.
+              </p>
+              <p>Personalización de vistas, informes y dashboards según necesidades del negocio.</p>
+            </div>
+          </div>
+        </li>
       </ul>
     </section>
     <section>
@@ -189,6 +205,43 @@
           Proyectos
         </span>
       </h1>
+      <div class="proy-divs">
+        <img src="img/pages/home/Liberguardia_Project.webp" alt="LibreGuardia" class="img-proy-izq">
+        <div class="contenido-texto">
+          <h3 class="titulo-proy">LibreGuardia - Gestión de guardias
+          </h3>
+          <div class="tec-usadas">
+            <img src="img/pages/home/ktor.png" title="Ktor">
+            <img src="img/pages/home/exposed.png" title="Exposed">
+            <img src="img/pages/home/postgresql.png" title="PostgreSQL">
+            <img src="img/pages/home/htmx.png" title="HTMX">
+            <img src="img/pages/home/kotlin.png" title="Kotlin">
+            <img src="img/pages/home/CSS.webp" title="CSS">
+            <img src="img/pages/home/Javascript.webp" title="Javascript">
+          </div>
+          <p class="texto-proy">
+            Software a medida para le gestión de ausencias y guardias del profesorado en centros educativos.
+          </p>
+          <p class="en-desarrollo"><small data-key="proyectos.gsm_smart.en_desarrollo">En desarrollo</small></p>
+          <div class="proy-botones">
+
+            <button>
+              <a href="https://github.com/Guillermo-Mora/libreguardia" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                </svg>
+                <span data-key="botones.codigo">
+                  Código
+                </span>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
       <div class="proy-divs">
         <img src="img/pages/home/KarateSharp_Project.webp" alt="karate Sharp" class="img-proy-izq">
         <div class="contenido-texto">
@@ -199,11 +252,13 @@
             <img src="img/pages/home/csharp.png">
           </div>
           <p class="texto-proy">
-            Videojuego de acción y plataformas dónde controlas a un luchador de karate encargado de salvar a los héroes de una ciudad.
+            Videojuego de acción y plataformas dónde controlas a un luchador de karate encargado de salvar a los héroes
+            de una ciudad.
           </p>
           <div class="proy-botones">
             <button>
-              <a href="https://play.unity.com/en/games/007d244b-08bd-49e4-8a24-b8cbff35e84f/web-karatesharp" target="_blank">
+              <a href="https://play.unity.com/en/games/007d244b-08bd-49e4-8a24-b8cbff35e84f/web-karatesharp"
+                target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
                   class="icon icon-tabler icons-tabler-outline icon-tabler-link">
@@ -243,7 +298,8 @@
             <img src="img/pages/home/Java.webp">
           </div>
           <p class="texto-proy">
-            Recreación del clásico videojuego Tetris usando Java y la librería Lanterna para crear interfaces en la terminal.
+            Recreación del clásico videojuego Tetris usando Java y la librería Lanterna para crear interfaces en la
+            terminal.
           </p>
           <div class="proy-botones">
             <button>
@@ -401,14 +457,7 @@
           <p data-key="sobre_mi.parrafo1" data-html="true">
             Me encanta resolver problemas con <span class="res-sobre-mi">creatividad</span> y crear proyectos mientras
             aprendo. Siempre me ha interesado la <span class="res-sobre-mi">informática</span> y he disfrutado
-            aprendiendo por mi cuenta. Actualmente curso <span class="res-sobre-mi">2 de DAM</span>.
-          </p>
-          <p data-key="sobre_mi.parrafo2" data-html="true">
-            He desarrollado una <span class="res-sobre-mi">página web</span> para un local de reparación de dispositivos
-            móviles y actualmente estoy dando mis primeros pasos en la <span class="res-sobre-mi">programación</span>.
-            Me interesa
-            seguir explorando distintas áreas
-            del desarrollo y mejorando en lo que me gusta.
+            aprendiendo por mi cuenta.
           </p>
           <p data-key="sobre_mi.parrafo3" data-html="true">
             En el futuro, me gustaría trabajar <span class="res-sobre-mi">dirigiendo y creando proyectos</span>, ya que
