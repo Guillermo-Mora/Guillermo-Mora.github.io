@@ -1,6 +1,5 @@
 <!DOCTYPE html><html lang="en" data-astro-cid-ju4pidww><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="google-site-verification" content="ZwCfdD8h8o2EbgGHtGH-dy3xpTMEQJtAcgxCxplmxqg"><link rel="icon" type="image/svg+xml" href="/favicon.ico"><link rel="icon" href="/favicon.ico"><meta name="generator" content="Astro v7.4.2"><title>Guillermo Mora Mortes</title><script>
 			(function () {
-				if (sessionStorage.getItem("langRedirectDone")) return;
 				const userLangs = navigator.languages || [navigator.language];
 				const prefersSpanish = userLangs.some((lang) =>
 					lang.toLowerCase().startsWith("es"),
@@ -8,7 +7,6 @@
 				const currentPath = window.location.pathname;
 
 				if (prefersSpanish && !currentPath.startsWith("/es/")) {
-					sessionStorage.setItem("langRedirectDone", "1");
 					window.location.replace("/es" + currentPath);
 				}
 			})();
